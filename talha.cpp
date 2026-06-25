@@ -166,6 +166,7 @@ int main()
     double propertyCost;
 
     cout << "Enter the cost of property to buy: ";
+    
     cin >> propertyCost;
 
     cout << "\n******** FBR Tax Paying Management System ********\n"
@@ -194,6 +195,8 @@ int main()
     payer->setPropertyCost(propertyCost);
     payer->DetailInfo();
     delete payer;
+    
+     cout <<"talha"<<endl;
 
     return 0;
 }
